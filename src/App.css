@@ -1,0 +1,30 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+.form-container
+{
+  display: grid;
+  height: calc(100vh - 88px);
+  align-items: center;
+}
+
+.form-create{
+  max-width: 50%;
+  padding-top: 2em;
+  padding-bottom: 2em;
+  margin: auto;
+}
+
+.align-alert
+{
+  position: sticky;
+  top:90px;
+  z-index: 1020;
+}
+
+.allpost-bg{
+  height: calc(100vh - 88px);
+}
